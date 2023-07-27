@@ -1,8 +1,7 @@
 import React from 'react'
 import Select from './Select'
 import Card from './Card';
-import getRazas from './getRazas';
-import { useEffect,useState } from 'react';
+import { useState } from 'react';
 
 
 const MainReact = () => {
