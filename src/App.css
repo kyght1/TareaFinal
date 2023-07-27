@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
+/*Hare un diseno responsive para el consumo de la API*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.layout {
+  background-color: white;
+  display: grid;
+  grid-template-areas:
+    "Header Header Header"
+    "Nav Nav Nav"
+    "Main Main Main"
+    "Footer Footer Footer";
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header {
+  grid-area: Header;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  background-color: rgb(161, 204, 209);
+  box-shadow: 0 0 25px #222;
+  backdrop-filter: blur(5px);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header img {
+  align-self: center;
+  align-content: center;
+  width: 200px;
+  height: 200px;
+}
+.Main {
+  grid-area: Main;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(215, 187, 245);
+  height: 400px;
+}
+.SelectorPerro {
+  display: flex;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 42px;
+  outline: 0;
+  border-radius: 0;
+  background: #f0f0f0;
+  font-size: 1em;
+  color: #999;
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+
+  transition: all 0.25s ease;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+
+}
+.card div{
+  align-self: center;
+  
+}
+.card img{
+  width: 300x;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all 400ms ease;
 }
 
-.App-link {
-  color: #61dafb;
+.Footer {
+  grid-area: Footer;
+  height: 100px;
+  background-color: rgb(160, 118, 249);
+  box-shadow: 0 0 25px #222;
+  backdrop-filter: blur(5px);
 }
+.Footer p{
+  color:white;
+  text-align: center;
+  align-items: center;
+  
+}
+.Nav{
+  grid-area: Nav;
+  height: 50px;
+  text-align: center;
+  background-color:rgb(160, 118, 249);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.Nav p{
+  color:white;
+
 }
