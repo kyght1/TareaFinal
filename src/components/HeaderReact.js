@@ -5,7 +5,7 @@ const HeaderReact = () => {
   return (
     <header className='Header'>
       
-      <img src={logo}/>
+      <img src={logo} alt='Logo'/>
     </header>
   )
 }
