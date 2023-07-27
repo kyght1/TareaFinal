@@ -3,7 +3,7 @@
   
 
 .layout {
-  background-color: white;
+  background-color: rgb(160, 118, 249);
   display: grid;
   grid-template-areas:
     "Header Header Header"
@@ -95,17 +95,17 @@
 }
 @media only screen and (max-width : 767px) {
   * {
-    font-size: 2.5vw;
+    font-size: 4.5vw;
   }
   .layout {
-    background-color: white;
+    background-color: rgb(160, 118, 249);
     display: grid;
     grid-template-areas:
       "Header"
       "Nav"
       "Main"
       "Footer";
-      width: 100%;
+    align-items: flex-end;
   }
   .Header {
     grid-area: Header;
@@ -157,14 +157,14 @@
     
   }
   .card img{
-    width: 250px;
+    width: 200px;
     object-fit: cover;
     transition: all 400ms ease;
   }
   
   .Footer {
     grid-area: Footer;
-    height: auto;
+    height: 180px;
     background-color: rgb(160, 118, 249);
     box-shadow: 0 0 25px #222;
     backdrop-filter: blur(5px);
