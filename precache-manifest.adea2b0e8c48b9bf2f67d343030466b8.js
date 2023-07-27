@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6e1c2fffacba5aca1305",
-    "url": "/TareaFinal/static/css/main.dcdd0526.chunk.css"
+    "revision": "940a3daae306cf49fd2c",
+    "url": "/TareaFinal/static/css/main.f8b5b96e.chunk.css"
   },
   {
-    "revision": "6e1c2fffacba5aca1305",
-    "url": "/TareaFinal/static/js/main.6e1c2fff.chunk.js"
+    "revision": "940a3daae306cf49fd2c",
+    "url": "/TareaFinal/static/js/main.940a3daa.chunk.js"
   },
   {
     "revision": "4587b35573b7dda0a77d",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/TareaFinal/static/media/LOGO_ai_rgb-01.43161548.png"
   },
   {
-    "revision": "afeeb9ef49e4536a268145cf4cfded39",
+    "revision": "bd53f2f11c726344d1020cbbf8408470",
     "url": "/TareaFinal/index.html"
   }
 ];
